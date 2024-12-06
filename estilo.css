@@ -1,0 +1,19 @@
+input{
+    border-radius: .5em;
+    padding: .5em;
+}
+.grupo{
+    margin-top: 1em;
+}
+.grupo > label{
+    display: block;
+}
+.controle{
+    background-color: rgb(88, 88, 83);
+}
+.btn{
+    background-color: rgb(211, 208, 240);
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+}

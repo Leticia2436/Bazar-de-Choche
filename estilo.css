@@ -6,7 +6,7 @@ input{
     margin-top: 1em;
 }
 .grupo > label{
-    display: block;
+    display: inline;
 }
 .controle{
     background-color: rgb(88, 88, 83);

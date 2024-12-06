@@ -5,35 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cê Crochês</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
+    <script src="eventos.js" defer></script>
 </head>
 <body>
-    <form action="">
+    <h1>Faça seu cadastro!</h1>
+
+    <form action="server.php">
         <div class="grupo">
-            <label for="name">Primeiro nome:</label>
+            <label for="name">Primeiro nome: </label>
             <input type="text" id="name" name="name" class="controle">
-            <label for="Sname">Segundo nome:</label>
+        </div>
+        <div class="grupo">
+            <label for="Sname">Segundo nome: </label>
             <input type="text" id="Sname" name="Sname" class="controle">
         </div>
         <div class="grupo">
             <label for="username"> E-mail </label>
-            <input type="email" id="username" class="controle">
+            <input type="email" id="username" class="controle" name="login">
         </div>
         <div class="grupo">
             <label for="senha"> Senha </label>
             <input type="password" id="senha" class="controle">
+            <span class="material-symbols-outlined" id="exibir" name="senha">
+                visibility
+            </span>
         </div>
         <div class="grupo">
-            <label for="qual_sexo">Qual seu sexo?</label>
+            <label for="qual_sexo">Qual seu sexo?</label><br>
             <input type="radio" id="html" name="fav_language" value="feminino">
             <label for="feminino">Feminino</label>
             <input type="radio" id="css" name="fav_language" value="masculino">
             <label for="masculino">Masculino</label>
             <input type="radio" id="javascript" name="fav_language" value="prefiro não dizer">
-            <label for="nao_digo">Prefiro não dizer</label><br><br>
+            <label for="nao_digo">Prefiro não dizer</label><br>
         </div>
         <div class="grupo">
-            <label for="qual_opcao">Quais peças você está procurando?</label>
+            <label for="qual_opcao">Quais peças você está procurando?</label><br>
             <input type="checkbox" id="opcao1" name="opcao1" value="Vestidos">
             <label for="opcao1"> Vestidos</label>
             <input type="checkbox" id="opcao2" name="opcao2" value="Conjuntos">

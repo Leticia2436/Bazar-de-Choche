@@ -4,6 +4,8 @@ input{
 }
 .grupo{
     margin-top: 1em;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .grupo > label{
     display: inline;
@@ -16,4 +18,14 @@ input{
     font-weight: bolder;
     text-transform: uppercase;
     color: #333;
+}
+header > img{
+    width: 120px;
+    height: auto;
+    margin-top: 0;
+    margin-right: 20%;
+}
+h1{
+    margin-left: 40%;
+    margin-right: 40%;
 }

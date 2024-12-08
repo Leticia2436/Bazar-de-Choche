@@ -6,6 +6,7 @@ input{
     margin-top: 1em;
     margin-left: 35%;
     margin-right: 35%;
+    margin-bottom: 1.2em;
 }
 .grupo > label{
     display: inline;
@@ -26,6 +27,8 @@ header > img{
     margin-right: 20%;
 }
 h1{
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-top: auto;
+    margin-left: 37%;
+    margin-right: 37%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

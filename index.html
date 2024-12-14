@@ -12,8 +12,9 @@
 <body>
 <header class="flex">
     <img src="BazarCrochê.png" alt="Bazar">
+    <h1>Faça seu cadastro!</h1>
 </header>
-<h1>Faça seu cadastro!</h1>
+<h2>Insira seus dados a seguir:</h2>
 <main>
     <form action="server.php" method="post">
         <div class="grupo">
@@ -39,37 +40,65 @@
             <input type="text" id="username" class="controle" name="Endereço:">
         </div>
 
-        <div class="grupo">
-            <label for="quantity">CEP:</label>
-            <input type="number" id="CEP:" name="CEP:" min="8" class="controle">
+        <div class="controle3">
+            <label for="quantity"> CEP: </label>
+            <input type="text" id="CEP:" name="CEP:" class="controle">
         </div>
 
         <div class="grupo">
-            <label for="qual_sexo">Qual seu sexo?</label><br>
-            <input type="radio" id="html" name="Sexo:" value="feminino">
-            <label for="feminino">Feminino</label>
-            <input type="radio" id="css" name="Sexo:" value="masculino">
-            <label for="masculino">Masculino</label>
-            <input type="radio" id="javascript" name="Sexo:" value="prefiro não dizer">
-            <label for="nao_digo">Prefiro não dizer</label><br>
+            <label for="nascimento">Data de nascimento: </label>
+             <input type="date" id="javascript" name="Data de nascimento:" class="controle">
         </div>
 
         <div class="grupo">
-            <label for="qual_opcao">Quais peças você está procurando?</label><br>
-            <input type="checkbox" id="opcao1" name="Opção1" value="Vestidos">
-            <label for="opcao1"> Vestidos</label>
-            <input type="checkbox" id="opcao2" name="Opção2" value="Conjuntos">
-            <label for="opcao2"> Conjuntos</label>
-            <input type="checkbox" id="opcao3" name="Opção3" value="Biquini">
-            <label for="opcao3"> Biquini</label>
+            <label for="telefone">Telefone: </label>
+             <input type="tel" id="telefone" name="Telefone:" class="controle">
+        </div>
+
+        <div class="grupo"> 
+            <label for="trabalho">Tempo de trabalho (em meses): </label>
+            <input type="number" id="trabalho" name="Tempo de trabalho: " min="0" class="controle">
+        </div>
+
+        <div class="controle2">
+            <label for="qual_sexo">Vendedor ou cliente?</label><br>
+            <input type="radio" id="opção 1 " name="opção 1: " value="Vendedor" class="controle">
+            <label for="Vendedor">Vendedor</label>
+            <input type="radio" id="opção 2 " name="opção2: " value="Cliente" class="controle">
+            <label for="Cliente">Cliente</label>
+
+        </div>
+
+        <div class="controle2">
+            <label for="qual_opcao">Com o que você trabalha?</label><br>
+            <input type="checkbox" id="opcao1" name="Opção1" value="Vestuário">
+            <label for="opcao1"> Vestuário</label>
+            <input type="checkbox" id="opcao2" name="Opção2" value="Suplair">
+            <label for="opcao2"> Suplair</label>
+            <input type="checkbox" id="opcao3" name="Opção3" value="Tapetes">
+            <label for="opcao3"> Tapetes</label>
+            <input type="text" id="opcao4" name="Opção4" value="Outro: ">
+
         </div>
         
         <div class="grupo">
             <input type="submit" value="Entrar" class="btn">
             <input type="reset" value="Reset" class="btn">
-        </div>
-        
+        </div>  
     </form>
 </main>
+<div class="content">
+</div>
+<div class="footer-background"></div>
+    <footer>
+        <p>Instituto Federal do Rio Grande do Norte</p>
+        <p>Trabalho de Autoria Web</p>
+        <p>Professor Marcelo Figueiredo Barbosa Júnior</p>
+        <ul>
+            <li>Camila Simone Pereira Dantas</li>
+            <li>Cecília Simone Pereira Dantas</li>
+            <li>Letícia Kailany da Silva</li>
+        </ul>
+    </footer>
 </body>
 </html>

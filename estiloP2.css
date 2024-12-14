@@ -25,7 +25,8 @@ li{
     padding-left: .5em;
 }
 a{
-    color: rgb(30, 30, 30);
+    color: rgb(189, 98, 177);
+    margin: 50px;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -33,7 +34,7 @@ section{
     display: inline-block;
     width: 200px;
     height: 350px;
-    background-color: rgb(48, 122, 30);
+    background-color: rgb(189, 98, 177);
     vertical-align: top;
     /* border-style: solid;
     border-width: 16px;
@@ -44,15 +45,25 @@ section{
 }
 .bolsas{
     background-image: url(bolsa-branca.png);
+    width: 250px;
+    height: 150;
+    left: 5px;
+    right: 5px;
 }
 .croppeds{
     background-image: url(cropped-preto.png);
+    width: 250px;
+    height: 350px;
 }
 .suplair{
     background-image: url(suplair-.png);
+    width: 250px;
+    height: 350px;
 }
 .amigurumi{
     background-image: url(amigurumi-chaveiro.png);
+    width: 250px;
+    height: 350px;
 }
 h3{
     position: absolute;
@@ -63,6 +74,7 @@ h3{
 }
 header, nav, main{
     width: 1100px;
+    
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -81,4 +93,5 @@ nav > ul{
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: 32%;
+    color: beige;
 }

@@ -15,6 +15,7 @@ nav > ul{
     width: 100%; 
     display: flex; 
     padding: 20px 10px; 
+    /* background-color:rgb(189, 98, 177); */
     font-family: Arial, Helvetica, sans-serif;
 }
 nav > ul > li{
@@ -28,6 +29,11 @@ nav > ul > li{
 } 
 a{
     color:#ffea28;
+    padding-left: .5em;
+    text-align: center;
+}
+a{
+    color: rgb(209, 241, 27);
     margin: 50px;
     text-decoration: none;
     font-weight: bolder;
@@ -104,3 +110,4 @@ header > nav {
     height: 10%;
     background-color: rgb(189, 98, 177);
 }
+
